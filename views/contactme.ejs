@@ -3,8 +3,28 @@
   <div class="container">
     <div class="jumbotron">
       <h1><%= title %></h1>
-      <p>Welcome to <%= title %>, <%= userName %>! </p>
+      <div class="panel panel-default">
+        <div class="panel-body"><p>Email: <a href="mailto:mohaassem@gmail.com">mohaassem@gmail.com</a></p></div>
+        <div class="panel-footer"><h4>Send me a message!</h4><form>
+          
+          <div class="form-group">
+            <label for="labelName">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+            <label for="labelEmail">Email address</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+            <label for="labelPhone">Phone Number</label>
+            <input type="tel" class="form-control" id="inputPhone" placeholder="123-456-7890"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <label for="labelSubject">Subject</label>
+            <input type="text" class="form-control" id="inputSubject">
+          </div>
+          <div class="form-group">
+            <label for="txtMessage">Message</label>
+            <textarea class="form-control" id="txtMessage" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Send message!</button>
+        </form></div>
+      </div>
     </div>
   </div>
 
-<% include partials/footer.ejs %>
+<% include partials/contactfooter.ejs %>
