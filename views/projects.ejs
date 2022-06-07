@@ -1,10 +1,56 @@
 <% include partials/header.ejs %>
   
-  <div class="container">
-    <div class="jumbotron">
-      <h1><%= title %></h1>
-      <p>Welcome to <%= title %>, <%= userName %>! </p>
+<div class="container">
+  <div class="jumbotron">
+    <h1><%= title %></h1>
+    <table class="table table-striped">
+      <tr>
+        <td>
+    <div class="w-100 p-3" style="width: 100%; height:100%; object-fit: contain;">
+      <img class="img-fluid" src="/images/CSharp_BankAccountApplication.jpg" alt="Screenshot of Bank Account Application I made">
+      <div class="card-body">
+        <h5 class="card-title">C# Banking Application</h5>
+        <p class="card-text"><p> I created a banking application that takes and stores a user's details. This application was built on a Windows Presentation Foundation (WPF) framework.
+          I'm proud to say that I learned how to use WPF on my own to build this demo.  
+         </p>
+      </div>
     </div>
+  </td>
+  <tr>
+  <td>
+    <div class="w-100 p-3" style="width: 100%; height:100%; object-fit: contain;">
+      <img class="img-fluid" src="/images/python_hobbyproject.jpg" alt="Screenshot of a Java application I wrote to rearrange a deque">
+      <div class="card-body">
+        <h5 class="card-title">Python Hobby Project</h5>
+        <p class="card-text">I downloaded a dataset of power plants from Kaggle and analyzed it using python in Spyder during my free time.</p>
+      </div>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <div class="w-100 p-3" style="width: 100%; height:100%; object-fit: contain;">
+      <table>
+        <tr>
+          <td>
+      <img class="img-fluid" src="/images/linux_bashscript.jpg" alt="Simple BASH script I wrote in linux">
+      </td>
+      <td>
+      <img class="img-fluid" src="/images/linux_bashscript_execution.jpg" alt="Execution of BASH script">
+    </td></tr>
+  </table>
+      <div class="card-body">
+        <h5 class="card-title">Linux BASH Script</h5>
+        <p class="card-text">I wrote the BASH script in the left screenshot for an introductory Linux course. 
+          As you can see in the right screenshot, the BASH script was capable of returning the positions of 4 positional parameters. I am quite comfortable with using Linux systems.</p>
+      </div>
+    </div>
+  </td>
+</tr>
+
+  
+  </table>
   </div>
+</div>
 
 <% include partials/footer.ejs %>
