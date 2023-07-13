@@ -1,6 +1,6 @@
 {
-  "name": "assignment1",
-  "version": "1.0.0",
+  "name": "portfolio_webapp",
+  "version": "1.0.1",
   "private": false,
   "engines": {
     "node": "16.15.0"
@@ -20,13 +20,10 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1"
   },
-  "description": "COMP229.004 - Class Examples",
+  "description": "Personal Portfolio",
   "main": "app.js",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "github.com/mohamed6assem/Assignment1"
-  },
+  "repository": "github.com/mohamed6assem/Assignment1",
   "keywords": [
     "COMP229",
     "ExpressJS",
