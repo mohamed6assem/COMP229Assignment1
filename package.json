@@ -20,7 +20,7 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1"
   },
-  "description": "COMP229.004 - Class Examples",
+  "description": "Personal Portfolio",
   "main": "app.js",
   "devDependencies": {},
   "repository": {
